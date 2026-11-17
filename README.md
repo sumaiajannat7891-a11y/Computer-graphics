@@ -28,15 +28,15 @@ Project Title: Fruit Ninja – Neon Slice
 * **Three Distinct Game Modes:** **Classic Mode** (3-life survival), **Zen Mode** (60-second bomb-free high-score sprint), and **Arcade Mode** (high-speed frenzy loaded with special power-up waves).
 * **Unlockable Plasma Blades:** Customizable glowing blade trails (Cyber Cyan, Hyper Pink, Toxic Green, Solar Gold) with velocity-sensitive thickness and swoosh audio.
 * **Tactical Power-Up Fruits:** **Freeze Banana** (slow-motion time dilation), **Frenzy Pomegranate** (multi-fruit eruption), **Double Score** (2x multiplier), and **Pulse Shield** (absorbs one bomb explosion).
-* **Combo, Critical & Blitz System:** Multi-slice combo multipliers (`2x`–`5x`) for single-swipe hits, random critical slice bonuses, and rapid "Blitz" chain rewards.
+* **Combo, Critical & Blitz System:** Multi-slice combo multipliers for single-swipe hits, random critical slice bonuses, and rapid "Blitz" chain rewards.
 * **Tactile VFX & "Game Juice":** Slicing splits fruits into spinning halves with neon particle bursts and fading canvas splatters; striking a bomb triggers a flash frame, brief hit-stop freeze, and camera screen-shake.
 * **Smart Adaptive Wave Spawner:** Escalates launch velocity, multi-fruit arc formations, and bomb probability dynamically as the player's score climbs.
-* **Persistent Player Profile (`JSON`):** Automatically saves mode-wise high scores, longest combo streaks, total slices, and unlocked blade styles locally.
+* **Persistent Player Profile :** Automatically saves mode-wise high scores, longest combo streaks, total slices, and unlocked blade styles locally.
 * **Dynamic Audio Engine:** Ambient synthwave soundtrack with layered sound effects for swooshes, slices, combos, power-ups, and explosions, plus instant Mute/Volume controls.
 
 ### 5. Tools & Architecture
 
 * **Language & Library:** Python 3.x, Pygame
-* **Software Design:** Modular codebase (`entities`, `vfx`, `ui`, `audio`, `storage`) with local `JSON` data persistence
+* **Software Design:** Modular codebase  with local JSON data persistence
 * **Development Environment:** Visual Studio Code, Git & GitHub
 
