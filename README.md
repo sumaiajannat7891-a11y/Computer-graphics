@@ -1,42 +1,34 @@
- PROJECT PROPOSAL
+# 🍉 Fruit Ninja – Neon Slice (Project Proposal)
 
-Project Title: Fruit Ninja – Neon Slice
+**Name:** Sumaia Jannat  
+**Student ID:** 11230321253  
 
-**Course Title:** Computer Graphics and Multimedia System Lab
+---
 
-**Course Code:** CSE 4108
+## 🎮 About the Game
+**Fruit Ninja – Neon Slice** is a fast-paced 2D arcade slicing game set in a vibrant cyberpunk neon arena. The main goal is to swipe your glowing blade to slice airborne neon fruits and collect bonus power-ups while dodging explosive bombs and preventing fruits from falling off-screen to achieve the highest possible score.
 
-**Project Type:** 2D Interactive Arcade Game
+---
 
-**Technologies:** Python 3, Pygame
+## 🕹️ How to Play
+* **Left Mouse Button / Touchpad (Hold & Drag):** Swipe the glowing neon blade across the screen to slice fruits and power-ups while avoiding bombs.
+* **Left Mouse Click / Touchpad Tap:** Click **START GAME** on the main menu to begin or **PLAY AGAIN** on the game-over screen to restart.
+* **ESC / Close Window:** Press `ESC` to return to the main menu during gameplay, or close the window to exit the game.
 
-### 1. Project Vision & Overview
+---
 
-**Fruit Ninja – Neon Slice** reimagines the classic fruit-slicing arcade experience inside a high-contrast, cyberpunk-inspired neon arena. Rather than relying on static visuals, the game transforms every mouse swipe into a glowing plasma blade cutting through illuminated fruits suspended in mid-air, while challenging players to evade volatile cyber-bombs. Built as a standalone 60 FPS desktop application using Python and Pygame, the project turns core **Computer Graphics and Multimedia** theory—2D transformations, projectile kinematics, line-circle geometry, particle physics, and reactive audio—into a fast, tactile, and visually striking interactive experience.
+## ✨ Proposed Features
+* **Cyberpunk Neon Arena & HUD:** Sleek dark arcade interface featuring a glowing neon grid background, illuminated borders, and real-time tracking of **Score**, **Best Score**, and **Lives**.
+* **Dynamic Neon Blade Trail:** Smooth mouse and touchpad drag-slicing mechanics with a responsive, fading neon blade trail.
+* **Diverse Neon Entities:** Procedurally styled glowing fruits, hazardous bombs, and special bonus power-ups spawned in dynamic waves.
+* **Parabolic Physics & Fruit Splitting:** Realistic gravity-driven upward launch and falling trajectories, continuous object rotation, and sliced fruits splitting into two halves.
+* **Accurate Collision Detection:** Line-segment to circle collision detection ensuring precise hit registration between fast blade swipes and moving targets.
+* **Visual Juice & Particle Effects:** Colorful particle bursts on slicing, explosive visual feedback, screen shake, screen flash, and floating combo/bonus popups.
+* **Combo & Progressive Difficulty:** Multi-slice combo multipliers for rapid consecutive hits, bonus points from power-ups, and gradually faster spawn intervals as the score increases.
+* **Complete Game State Management:** Smooth transitions between Start Menu, Active Gameplay, and Game Over screens, alongside automatic high score persistence in `data/scores.json`.
+* **Immersive Audio Feedback:** Dynamic slice and explosion sound effects built with safe fallback handling.
 
-### 2. Core Objectives
+---
 
-* **Responsive 60 FPS Gameplay:** Architect a smooth, lag-free game loop in Python and Pygame with fluid mouse-gesture tracking.
-* **Procedural Neon Aesthetics:** Generate glowing light trails, dynamic grid backgrounds, and vibrant juice splatters using layered alpha blending rather than plain static sprites.
-* **Applied Graphics & Physics:** Implement parabolic projectile motion, rotational transformations, and high-precision line-segment collision detection.
-* **Engaging Arcade Progression:** Deliver multi-mode gameplay, strategic power-ups, combo multipliers, and adaptive wave difficulty that keeps players hooked.
-* **Synchronized Multimedia Feedback:** Pair reactive synthwave music and multi-channel sound effects with tactile visual cues ("game juice") like hit-stop and screen shake.
-
-### 3. Signature Gaming Features
-
-* **Cyber-Neon UI & Smooth State Flow:** Animated grid Start Menu, Mode Selector, quick How-to-Play guide, Pause/Resume overlay, and an instant-replay Game Over breakdown.
-* **Three Distinct Game Modes:** **Classic Mode** (3-life survival), **Zen Mode** (60-second bomb-free high-score sprint), and **Arcade Mode** (high-speed frenzy loaded with special power-up waves).
-* **Unlockable Plasma Blades:** Customizable glowing blade trails (Cyber Cyan, Hyper Pink, Toxic Green, Solar Gold) with velocity-sensitive thickness and swoosh audio.
-* **Tactical Power-Up Fruits:** **Freeze Banana** (slow-motion time dilation), **Frenzy Pomegranate** (multi-fruit eruption), **Double Score** (2x multiplier), and **Pulse Shield** (absorbs one bomb explosion).
-* **Combo, Critical & Blitz System:** Multi-slice combo multipliers for single-swipe hits, random critical slice bonuses, and rapid "Blitz" chain rewards.
-* **Tactile VFX & "Game Juice":** Slicing splits fruits into spinning halves with neon particle bursts and fading canvas splatters; striking a bomb triggers a flash frame, brief hit-stop freeze, and camera screen-shake.
-* **Smart Adaptive Wave Spawner:** Escalates launch velocity, multi-fruit arc formations, and bomb probability dynamically as the player's score climbs.
-* **Persistent Player Profile :** Automatically saves mode-wise high scores, longest combo streaks, total slices, and unlocked blade styles locally.
-* **Dynamic Audio Engine:** Ambient synthwave soundtrack with layered sound effects for swooshes, slices, combos, power-ups, and explosions, plus instant Mute/Volume controls.
-
-### 5. Tools & Architecture
-
-* **Language & Library:** Python 3.x, Pygame
-* **Software Design:** Modular codebase  with local JSON data persistence
-* **Development Environment:** Visual Studio Code, Git & GitHub
-
+## 📸 Screenshots
+![Gameplay](gameplay.png)
