@@ -1,6 +1,6 @@
-# 🍉 Fruit Ninja – Neon Slice (Project Proposal)
+# 🍉 Fruit Ninja – Neon Slice 
 
-**Name:** Sumaia Jannat  
+**Name:** Sumaia   
 **Student ID:** 11230321253  
 
 ---
@@ -12,8 +12,8 @@
 
 ## 🕹️ How to Play
 * **Left Mouse Button / Touchpad (Hold & Drag):** Swipe the glowing neon blade across the screen to slice fruits and power-ups while avoiding bombs.
-* **Left Mouse Click / Touchpad Tap:** Click **start game ** on the main menu to begin or *play game* on the game-over screen to restart.
-* **ESC / Close Window:** Press `ESC` to return to the main menu during gameplay, or close the window to exit the game.
+* **Left Mouse Click / Touchpad Tap:** Click start game  on the main menu to begin or *play game* on the game-over screen to restart.
+* **ESC / Close Window:** Press ESC to return to the main menu during gameplay, or close the window to exit the game.
 
 ---
 
@@ -25,7 +25,7 @@
 * **Accurate Collision Detection:** Line-segment to circle collision detection ensuring precise hit registration between fast blade swipes and moving targets.
 * **Visual Juice & Particle Effects:** Colorful particle bursts on slicing, explosive visual feedback, screen shake, screen flash, and floating combo/bonus popups.
 * **Combo & Progressive Difficulty:** Multi-slice combo multipliers for rapid consecutive hits, bonus points from power-ups, and gradually faster spawn intervals as the score increases.
-* **Complete Game State Management:** Smooth transitions between Start Menu, Active Gameplay, and Game Over screens, alongside automatic high score persistence in `data/scores.json`.
+* **Complete Game State Management:** Smooth transitions between Start Menu, Active Gameplay, and Game Over screens, alongside automatic high score persistence in data/scores.json.
 * **Immersive Audio Feedback:** Dynamic slice and explosion sound effects built with safe fallback handling.
 
 ---
