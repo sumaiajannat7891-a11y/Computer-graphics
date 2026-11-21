@@ -6,7 +6,7 @@
 ---
 
 ## 🎮 About the Game
-**Fruit Ninja-Neon Slice is a fast-paced 2D arcade slicing game set in a vibrant cyberpunk neon arena. The main goal is to swipe your glowing blade to slice airborne neon fruits and collect bonus power-ups while dodging explosive bombs and preventing fruits from falling off-screen to achieve the highest possible score.
+Fruit Ninja-Neon Slice is a fast-paced 2D arcade slicing game set in a vibrant cyberpunk neon arena. The main goal is to swipe your glowing blade to slice airborne neon fruits and collect bonus power-ups while dodging explosive bombs and preventing fruits from falling off-screen to achieve the highest possible score.
 
 ---
 
