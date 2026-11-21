@@ -12,7 +12,7 @@
 
 ## 🕹️ How to Play
 * **Left Mouse Button / Touchpad (Hold & Drag):** Swipe the glowing neon blade across the screen to slice fruits and power-ups while avoiding bombs.
-* **Left Mouse Click / Touchpad Tap:** Click **start game ** on the main menu to begin or **PLAY AGAIN** on the game-over screen to restart.
+* **Left Mouse Click / Touchpad Tap:** Click **start game ** on the main menu to begin or *play game* on the game-over screen to restart.
 * **ESC / Close Window:** Press `ESC` to return to the main menu during gameplay, or close the window to exit the game.
 
 ---
