@@ -18,8 +18,8 @@ Fruit Ninja-Neon Slice is a fast-paced 2D arcade slicing game set in a vibrant c
 ---
 
 ## ✨ Proposed Features
-* **Cyberpunk Neon Arena & HUD:** Sleek dark arcade interface featuring a glowing neon grid background, illuminated borders, and real-time tracking of **Score**, **Best Score**, and **Lives**.
 * **Dynamic Neon Blade Trail:** Smooth mouse and touchpad drag-slicing mechanics with a responsive, fading neon blade trail.
+* * **Cyberpunk Neon Arena & HUD:** Sleek dark arcade interface featuring a glowing neon grid background, illuminated borders, and real-time tracking of **Score**, **Best Score**, and **Lives**.
 * **Diverse Neon Entities:** Procedurally styled glowing fruits, hazardous bombs, and special bonus power-ups spawned in dynamic waves.
 * **Parabolic Physics & Fruit Splitting:** Realistic gravity-driven upward launch and falling trajectories, continuous object rotation, and sliced fruits splitting into two halves.
 * **Accurate Collision Detection:** Line-segment to circle collision detection ensuring precise hit registration between fast blade swipes and moving targets.
